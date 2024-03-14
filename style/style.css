@@ -1,443 +1,458 @@
-    /* 
-        font-family: "Dela Gothic One";
-        font-family: "Chivo";
-        transform: translate(-50%, -50%); Отнимает свою ширину и высоту бля гениально
-    */
-
-    html {
-        scroll-behavior: smooth;
-        overflow-x: hidden;
-    }
-
-    body {
-        font-size: 16px;
-        background-color: #252524;
-        background-image: url('../img/Background.png');
-        background-size: 100%;
-        margin: 0;
-        height: auto;
-        overflow-x: hidden;
-        margin: 0;
-        z-index: 0;
-    }
-    
-    a{
-        text-decoration: none;
-    }
-
-    h1 {
-        font-family: "Dela Gothic One";
-        color: white;
-
-    }
-
-    p {
-        font-family: "Chivo";
-        font-style: italic;
-        
-    }
-
-
-    /* header */
-
-    .header{
-        width: 80%;
-        height: 9vh;
-
-        position: relative;
-        margin: auto;
-    }
-
-    .menu {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
-
-    .menu:hover {
-        transform: scale(1.15);
-        transition: transform 0.2s linear; 
-    }
-
-    .search {
-        position: absolute;
-        right: 5vh;
-        bottom: 0;
-    }
-
-    .search:hover {
-        transform: scale(1.15);
-        transition: transform 0.2s linear; 
-    }
-
-    .shop {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
-
-    .shop:hover {
-        transform: scale(1.15);
-        transition: transform 0.2s linear; 
-    }
-
-    /* первый блок */
-
-    .first {
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-        position: relative;
-    }
-
-    .woman {
-        display: block;
-        height: 40vw;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-    }
-
-    .flowy {
-        position: absolute;
-        top: 15vh;
-        right: 5vw;
-    }
-
-    .flowy_two {
-        position: relative;
-    }
-
-    .nullone {
-        position: absolute;
-        top: 48%; 
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-weight: 100;
-        margin: 0;
-    }
-
-    .eth {
-        color:#d0f117;
-        font-size: 10vw;
-        position: absolute;
-        top: 28%;
-        left: 33%;
-        transform: translate(-50%, -50%);
-        letter-spacing: 1vh;
-        text-shadow: 3px 3px #252524;
-    }
-
-    .fash {
-        color:#d0f117;
-        font-size: 10vw;
-        position: absolute;
-        top: 57%;
-        left: 67.5%;
-        transform: translate(-50%, -50%);
-        letter-spacing: 1vh;
-        text-shadow: 3px 3px #252524;
-    }
-    .first span {
-        color: transparent;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #d0f117;
-        z-index: 2;
-        text-shadow: none;
-    }
-
-    .text {
-        font-family: "Chivo";
-        font-style: italic;
-        color: #d4cec4;
-        position: absolute;
-        left: 10%;
-        top: 58vh;
-        font-size: 1.3vw;
-    }
-
-    .btnshop {
-        position: absolute;
-        left: 10%;
-        top: 71vh;
-        background-color: #d0f117;
-        padding: 0.125rem 1.5625rem;
-        border-radius: 6.25rem;
-    }
-
-
-    .btnshop p {
-        font-size: 0.8125rem;
-        color: #1d1d1d;
-    }
-
-    .btnshop:active {
-        background-color: #c0dc20;
-        transition: background-color 0.2s linear;
-    }
-
-    .arrow {
-        position: absolute;
-        left: 50%;
-        top: 95vh;
-        transform: translate(-50%, -50%);
-        height: 1.5rem;
-    }
-
-
-
-    /* Второй блок */
-
-
-    .second {
-        margin: 0;
-        background-image: url(../img/Backgroundsec.png);
-        
-        height: 70vh;
-        position: relative;
-        padding: 15vh;
-    }
-
-
-
-    .croses {
-        position: absolute;
-        left: 50%;
-        top: 10%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-    }
-
-    .croses img {
-        margin-right: 5%;
-    }
-
-
-
-    .stroke {
-        z-index: 0;
-    }
-    .strone {
-        position: absolute;
-        right: 0;
-        top: 10vh;
-    }
-    .strtwo {
-        position: absolute;
-        left: 0;
-        bottom: 10vh;
-    }
-
-
-    .sus {
-        font-family: "Dela Gothic One";
-        font-size: 3rem;
-        text-align: center;
-        color: #252524;
-        z-index: 2;
-    }
-
-    .susp {
-        font-family: "Chivo";
-        font-size: 1rem;
-        text-align: center;
-        color: #252524;
-        z-index: 2;
-    }
-
-
-
-    /* третий блок */
-
-    .third {
-        width: 80%;
-        margin: 0 auto;
-        height: auto;
-    }
-
-    .third h1 {
-        margin: 0;
-        text-align: center;
-        color: #d0f117;
-        font-size: 22.4vh;
-    }
-
-    .our {
-        color: transparent;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #d0f117;
-    }
-
-
-    /* shop */
-
-    .shopm {
-        display: flex;
-        flex-wrap: wrap;
-        height: auto ;
-    }
-    
-    .btnadd {
-        position: absolute;
-        right: 0;
-        bottom: 2.3000000000000007vw;
-        background-color: transparent;
-        border: 2px solid #d0f117;
-        padding: 0.125rem 1rem;
-        border-radius: 6.25rem;
-    }
-    .btnadd:active {
-        background: #d0f1173d;
-    }
-   
-
-
-    .stylea  {
-        height: 35vw;
-        margin-left: 12vw;
-        position: relative;
-    }
-    .stylea img {
-        height: 30vw;
-
-    }
-    .stylea h2 {    
-        font-family: "Dela Gothic One";
-        color: white;
-        letter-spacing: 3px;
-        margin: 0;
-        font-size: 2.5vh;
-    }
-    .stylea p {
-        display: inline;
-        color: white;
-        font-family: "Chivo"; 
-        margin: 0;
-        font-weight: 100;
-    }
-
-    .btnadd p {
-        color: #d0f117;
-        font-size: 0.6rem;
-        font-weight: 500;
-    }
-    .btnadd:active {
-        border: 2px solid #d9ff00;
-        transition: border 1s linear;
-    }
-
-
-
-    .styleb  {
-        margin-top: 15vh;
-        height: 35vw;
-        margin-left: 12vw;
-        position: relative;
-    }
-    .styleb img {
-        height: 30vw;
-
-    }
-    .styleb h2 {    
-        font-family: "Dela Gothic One";
-        color: white;
-        letter-spacing: 3px;
-        margin: 0;
-        font-size: 2.5vh;
-    }
-    .styleb p {
-        display: inline;
-        color: white;
-        font-family: "Chivo"; 
-        margin: 0;
-        font-weight: 100;
-    }
-    .btnadd p {
-        color: #d0f117;
-        font-size: 0.6rem;
-        font-weight: 500;
-    }
-
-
-
-    .stylec  {
-        height: 35vw;
-        margin-left: 12vw;
-        position: relative;
-    }
-    .stylec img {
-        height: 30vw;
-
-    }
-    .stylec h2 {    
-        font-family: "Dela Gothic One";
-        color: white;
-        letter-spacing: 3px;
-        margin: 0;
-        font-size: 2.5vh;
-    }
-    .stylec p {
-        display: inline;
-        color: white;
-        font-family: "Chivo"; 
-        margin: 0;
-        font-weight: 100;
-    }
-    .btnadd p {
-        color: #d0f117;
-        font-size: 0.6rem;
-        font-weight: 500;
-    }
-
-
-
-    .styled  {
-        margin-top: 15vh;
-        height: 35vw;
-        margin-left: 12vw;
-        position: relative;
-    }
-    .styled img {
-        height: 30vw;
-
-    }
-    .styled h2 {    
-        font-family: "Dela Gothic One";
-        color: white;
-        letter-spacing: 3px;
-        margin: 0;
-        font-size: 2.5vh;
-    }
-    .styled p {
-        display: inline;
-        color: white;
-        font-family: "Chivo"; 
-        margin: 0;
-        font-weight: 100;
-    }
-    .btnadd p {
-        color: #d0f117;
-        font-size: 0.6rem;
-        font-weight: 500;
-    }
-
-
-
-    .araw {
-        display: block;
-        height: 1.5rem;
-        margin: 0 auto;
-        margin-top: vh;
-    }
-    .more {
-        text-align: center;
-        color: white;
-        font-weight: 100;
-    }
-
-    
-  /* четвертый блок */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    background-color: #252524;
+    background-image: url('../img/Background.png');
+    background-size: 100%;
+    margin: 0;
+    height: auto;
+    overflow-x: hidden;
+    margin: 0;
+    z-index: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Dela Gothic One";
+    color: white;
+
+}
+
+p {
+    font-family: "Chivo";
+    font-style: italic;
+
+}
+
+
+/* header */
+
+.header {
+    width: 80%;
+    height: 9vh;
+
+    position: relative;
+    margin: auto;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.menu:hover {
+    transform: scale(1.15);
+    transition: transform 0.2s linear;
+}
+
+.search {
+    position: absolute;
+    right: 5vh;
+    bottom: 0;
+}
+
+.search:hover {
+    transform: scale(1.15);
+    transition: transform 0.2s linear;
+}
+
+.shop {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.shop:hover {
+    transform: scale(1.15);
+    transition: transform 0.2s linear;
+}
+
+/* первый блок */
+
+.first {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.woman {
+    display: block;
+    height: 40vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.flowy {
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+}
+
+.flowy_two {
+    position: relative;
+}
+
+.nullone {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    margin: 0;
+}
+
+.eth {
+    color: #d0f117;
+    font-size: 10vw;
+    position: absolute;
+    top: 28%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1vh;
+    text-shadow: 3px 3px #252524;
+}
+
+.fash {
+    color: #d0f117;
+    font-size: 10vw;
+    position: absolute;
+    top: 57%;
+    left: 67.5%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1vh;
+    text-shadow: 3px 3px #252524;
+}
+
+.first span {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d0f117;
+    z-index: 2;
+    text-shadow: none;
+}
+
+.text {
+    font-family: "Chivo";
+    font-style: italic;
+    color: #d4cec4;
+    position: absolute;
+    left: 10%;
+    top: 58vh;
+    font-size: 1.3vw;
+}
+
+.btnshop {
+    position: absolute;
+    left: 10%;
+    top: 71vh;
+    background-color: #d0f117;
+    padding: 0.125rem 1.5625rem;
+    border-radius: 6.25rem;
+}
+
+
+.btnshop p {
+    font-size: 0.8125rem;
+    color: #1d1d1d;
+}
+
+.btnshop:active {
+    background-color: #c0dc20;
+    transition: background-color 0.2s linear;
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    top: 95vh;
+    transform: translate(-50%, -50%);
+    height: 1.5rem;
+}
+
+
+
+/* Второй блок */
+
+
+.second {
+    margin: 0;
+    background-image: url(../img/Backgroundsec.png);
+
+    height: 70vh;
+    position: relative;
+    padding: 15vh;
+}
+
+
+
+.croses {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.croses img {
+    margin-right: 5%;
+}
+
+
+
+.stroke {
+    z-index: 0;
+}
+
+.strone {
+    position: absolute;
+    right: 0;
+    top: 10vh;
+}
+
+.strtwo {
+    position: absolute;
+    left: 0;
+    bottom: 10vh;
+}
+
+
+.sus {
+    font-family: "Dela Gothic One";
+    font-size: 3rem;
+    text-align: center;
+    color: #252524;
+    z-index: 2;
+}
+
+.susp {
+    font-family: "Chivo";
+    font-size: 1rem;
+    text-align: center;
+    color: #252524;
+    z-index: 2;
+}
+
+
+
+/* третий блок */
+
+.third {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.third h1 {
+    margin: 0;
+    text-align: center;
+    color: #d0f117;
+    font-size: 22.4vh;
+}
+
+.our {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d0f117;
+}
+
+
+/* shop */
+
+.shopm {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.btnadd {
+    position: absolute;
+    right: 0;
+    bottom: 2.3000000000000007vw;
+    background-color: transparent;
+    border: 2px solid #d0f117;
+    padding: 0.125rem 1rem;
+    border-radius: 6.25rem;
+}
+
+.btnadd:active {
+    background: #d0f1173d;
+}
+
+
+
+.stylea {
+    height: 35vw;
+    margin-left: 12vw;
+    position: relative;
+}
+
+.stylea img {
+    height: 30vw;
+
+}
+
+.stylea h2 {
+    font-family: "Dela Gothic One";
+    color: white;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.stylea p {
+    display: inline;
+    color: white;
+    font-family: "Chivo";
+    margin: 0;
+    font-weight: 100;
+}
+
+.btnadd p {
+    color: #d0f117;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.btnadd:active {
+    border: 2px solid #d9ff00;
+    transition: border 1s linear;
+}
+
+
+
+.styleb {
+    margin-top: 15vh;
+    height: 35vw;
+    margin-left: 12vw;
+    position: relative;
+}
+
+.styleb img {
+    height: 30vw;
+
+}
+
+.styleb h2 {
+    font-family: "Dela Gothic One";
+    color: white;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.styleb p {
+    display: inline;
+    color: white;
+    font-family: "Chivo";
+    margin: 0;
+    font-weight: 100;
+}
+
+.btnadd p {
+    color: #d0f117;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+
+
+.stylec {
+    height: 35vw;
+    margin-left: 12vw;
+    position: relative;
+}
+
+.stylec img {
+    height: 30vw;
+
+}
+
+.stylec h2 {
+    font-family: "Dela Gothic One";
+    color: white;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.stylec p {
+    display: inline;
+    color: white;
+    font-family: "Chivo";
+    margin: 0;
+    font-weight: 100;
+}
+
+.btnadd p {
+    color: #d0f117;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+
+
+.styled {
+    margin-top: 15vh;
+    height: 35vw;
+    margin-left: 12vw;
+    position: relative;
+}
+
+.styled img {
+    height: 30vw;
+
+}
+
+.styled h2 {
+    font-family: "Dela Gothic One";
+    color: white;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.styled p {
+    display: inline;
+    color: white;
+    font-family: "Chivo";
+    margin: 0;
+    font-weight: 100;
+}
+
+.btnadd p {
+    color: #d0f117;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+
+
+.araw {
+    display: block;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin-top: vh;
+}
+
+.more {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+
+/* четвертый блок */
 
 .four {
     height: auto;
@@ -449,11 +464,13 @@
     height: 15vw;
     position: absolute;
 }
+
 .lya {
     right: -8vw;
     top: -5vw;
     height: 18vw;
 }
+
 .blya {
     bottom: -10vw;
     left: -8vw;
@@ -470,10 +487,12 @@
     justify-content: center;
     flex-direction: row;
 }
+
 .changing {
     width: 80%;
     margin: 0 auto;
 }
+
 .changing h1 {
     width: 100%;
     margin: 0 auto;
@@ -483,15 +502,18 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #d0f117;
 }
+
 .fourfo div {
-    margin-right:5%;
+    margin-right: 5%;
     margin-top: 5%;
 }
+
 .fourfo div h2 {
     font-family: "Dela Gothic One";
     color: #d4cec4;
     letter-spacing: 0.15vw;
 }
+
 .fourfo div p {
     color: #d4cec4;
 }
@@ -517,7 +539,7 @@
     position: relative;
 }
 
-.five div img { 
+.five div img {
     width: 100%;
     display: block;
 }
@@ -556,10 +578,12 @@
     padding: 0.125rem 1rem;
     border-radius: 6.25rem;
 }
+
 .btnshopy:active {
     background-color: #c0dc20;
     transition: background-color 0.2s linear;
 }
+
 .btnshopy p {
     color: #1d1d1d;
     font-size: 0.6rem;
@@ -601,9 +625,11 @@
     font-size: 1.67vw;
     white-space: nowrap;
 }
+
 .secondi {
     margin-left: 10%;
 }
+
 .btnour {
     position: absolute;
     left: 50%;
@@ -615,11 +641,13 @@
     border-radius: 6.25rem;
     z-index: 2;
 }
+
 .btnour p {
     text-decoration: none;
     color: #d0f117;
     margin: 0;
 }
+
 .btnour:active {
     background-color: #c0dc20;
     transition: background-color 0.2s linear;
@@ -657,8 +685,9 @@
     z-index: 3;
     text-align: center;
     padding-top: 20vh;
-    
+
 }
+
 .joinour {
     color: #252524;
     font-size: 5vw;
@@ -671,6 +700,7 @@
 .form {
     position: relative;
 }
+
 .input {
     height: 5vh;
     font-family: "Dela Gothic One";
@@ -678,29 +708,34 @@
     margin: 0;
     background-color: transparent;
     border: 0;
-    border: #1d1d1d solid 3px ;
+    border: #1d1d1d solid 3px;
 }
+
 .send {
     height: 5.6vh;
     font-family: "Dela Gothic One";
     font-weight: 100;
     margin: 0;
     background-color: transparent;
-    border: #1d1d1d solid 3px ;
+    border: #1d1d1d solid 3px;
     cursor: pointer;
     color: #1d1d1d;
 }
+
 .input:focus {
     outline: 0;
 }
+
 .send:active {
     color: #575757;
     transition: color 0.1s linear;
 }
+
 .seven p {
     margin-top: 3vh;
     margin-bottom: 5vh;
 }
+
 .joinr img {
     margin: 0 1vw;
 }
@@ -713,6 +748,7 @@
     padding-top: 5vh;
     text-align: left;
 }
+
 .razdels {
     display: flex;
     width: 80%;
@@ -728,196 +764,235 @@
     color: #d0f117;
     font-size: 1.5vw;
 }
+
 .razdels p {
     color: #d4cec4;
     margin: 0;
     font-size: 1vw;
 }
+
 .copy {
     color: #d0f117;
     text-align: center;
 }
-    /* Media */
+
+/* Media */
 
 
 
 
-    @media (max-width: 840px) {
-        .joinour {
-            font-size: 10vw;
-        }
-        .women {
-            display: none;
-        }
-        .joinr {
-            width: 100vw;
-        }
-        .first span {
-            color: #d0f117;
-            z-index: 2;
-            text-shadow: 3px 3px #252524;
-        }
-        .six h1 {
-            font-size: 10vw;
-        }
-        .btnshopy{
-            bottom: -2.2vh;
-            padding: 0.1rem 0.8rem;
-        }
-        .q {
-            display: none;
-        }
-        .five h2 {
-            font-size: 0.8em;
-            top: 65%;
-            transform: translate(-50%, -50%);
-        }
-        .shp {
-            width: 65%;
-            margin: 0;
-            margin-bottom: 1vh;
-        }
-        .third h1 {
-            font-size: 10vw;
-        }
-        .third {
-            height: auto;
-        }
-        .stylea  {
-            height: auto;
-            width: 100%; 
-            margin-left: 0 ;
-            text-align: center; 
-        }
-        .four {
-            margin-top: 20vh;
-        }
-        .btnadd {
-            bottom: -7vh; 
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: transparent;
-            border: 2px solid #d0f117;
-            padding: 0.125rem 1rem;
-            border-radius: 6.25rem;
-            z-index: 2;
-        }
-        .stylea img {
-            display: block;
-            height: 80vw;
-            margin: 3vh auto;
-        }
-        .styleb  {
-            height: auto;
-            width: 100%;
-            margin: 0; 
-            margin-top: 10vh;
-            margin-left: 0 ;
-            text-align: center; 
-        }
-        .styleb img {
-            display: block;
-            height: 80vw;
-            margin: 3vh auto;
-        }
-        .stylec  {
-            height: auto;
-            width: 100%; 
-            margin-top: 10vh;
-            margin-left: 0 ;
-            text-align: center; 
-        }
-        .stylec img {
-            display: block;
-            height: 80vw;
-            margin: 3vh auto;
-        }
-        .styled  {
-            height: auto;
-            width: 100%; 
-            margin: 0;
-            margin-top: 10vh;
-            margin-left: 0 ;
-            text-align: center; 
-        }
-        .styled img {
-            display: block;
-            height: 80vw;
-            margin: 3vh auto;
-        }
-        .araw {
-            display: none;
-        }
-        .more {
-            display: none;
-        }
-        
+@media (max-width: 840px) {
+    .joinour {
+        font-size: 10vw;
     }
 
-@media (max-width: 700px ) {
-    
+    .women {
+        display: none;
+    }
+
+    .joinr {
+        width: 100vw;
+    }
+
+    .first span {
+        color: #d0f117;
+        z-index: 2;
+        text-shadow: 3px 3px #252524;
+    }
+
+    .six h1 {
+        font-size: 10vw;
+    }
+
+    .btnshopy {
+        bottom: -2.2vh;
+        padding: 0.1rem 0.8rem;
+    }
+
+    .q {
+        display: none;
+    }
+
+    .five h2 {
+        font-size: 0.8em;
+        top: 65%;
+        transform: translate(-50%, -50%);
+    }
+
+    .shp {
+        width: 65%;
+        margin: 0;
+        margin-bottom: 1vh;
+    }
+
+    .third h1 {
+        font-size: 10vw;
+    }
+
+    .third {
+        height: auto;
+    }
+
+    .stylea {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .four {
+        margin-top: 20vh;
+    }
+
+    .btnadd {
+        bottom: -7vh;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border: 2px solid #d0f117;
+        padding: 0.125rem 1rem;
+        border-radius: 6.25rem;
+        z-index: 2;
+    }
+
+    .stylea img {
+        display: block;
+        height: 80vw;
+        margin: 3vh auto;
+    }
+
+    .styleb {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        margin-top: 10vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .styleb img {
+        display: block;
+        height: 80vw;
+        margin: 3vh auto;
+    }
+
+    .stylec {
+        height: auto;
+        width: 100%;
+        margin-top: 10vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .stylec img {
+        display: block;
+        height: 80vw;
+        margin: 3vh auto;
+    }
+
+    .styled {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        margin-top: 10vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .styled img {
+        display: block;
+        height: 80vw;
+        margin: 3vh auto;
+    }
+
+    .araw {
+        display: none;
+    }
+
+    .more {
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) {
+
     .woman {
         height: 110.4vw;
     }
+
     .flowy {
         display: none;
     }
+
     .eth {
         z-index: 2;
         position: none;
         font-size: 12vw;
         text-shadow: 3px 3px #252524;
     }
+
     .fash {
         z-index: 2;
         position: none;
         font-size: 12vw;
         text-shadow: 3px 3px #252524;
     }
+
     .text {
         display: none;
     }
+
     .btnshop {
         z-index: 2;
         left: 50%;
         top: 93vh;
         transform: translate(-50%, -50%);
     }
-    .arrow{
+
+    .arrow {
         display: none;
     }
+
     .shopm {
         height: auto;
     }
+
     .styleb {
         width: 100%;
     }
+
     .stylec {
         width: 100%;
     }
+
     .styled {
         width: 100%;
     }
 }
+
 @media (max-width: 570px) {
     .second {
         height: 80vh;
         position: relative;
         padding: 10vh;
     }
+
     .sus {
         font-size: 2rem;
     }
+
     .susp {
         font-size: 1rem;
     }
+
     .strone {
         display: none;
     }
 }
 
 @media (max-height: 500px) {
-    
+
     .strtwo {
         display: none;
     }
@@ -929,19 +1004,23 @@
     .razdels {
         flex-direction: column;
     }
+
     .razdels h2 {
         font-family: "Dela Gothic One";
         color: #d0f117;
         font-size: 5vw;
     }
+
     .razdels p {
         color: #d4cec4;
         margin: 0;
         font-size: 3vw;
     }
+
     .sus {
         font-size: 2rem;
     }
+
     .susp {
         font-size: 0.8rem;
     }
