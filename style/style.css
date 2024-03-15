@@ -771,6 +771,13 @@ p {
     font-size: 1vw;
 }
 
+.razdels a:hover {
+    color: #aca9a2;
+}
+.razdels a:active {
+    color: #aca9a2;
+}
+
 .copy {
     color: #d0f117;
     text-align: center;
