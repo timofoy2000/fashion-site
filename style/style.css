@@ -771,10 +771,10 @@ p {
     font-size: 1vw;
 }
 
-.razdels a:hover {
+.razdels p:hover {
     color: #aca9a2;
 }
-.razdels a:active {
+.razdels p:active {
     color: #aca9a2;
 }
 
